@@ -1,0 +1,77 @@
+/* Resetare CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Poziționarea */
+
+.profile-card {
+  height: 500px;
+  width:500px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .5);
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  background: url(assets/pawel-czerwinski-qztBRIrU1FM-unsplash.jpg)no-repeat center center fixed;
+  background-size: cover;
+}
+
+.head, .links {
+ text-align: center;
+}
+
+img {
+  border-radius:50%;
+  transition: all 0.5s ease-in-out;
+  display: inline-block;
+  margin: 25px 10px;
+ }
+
+/* Linkurile de contact */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+ }
+
+.head, .about1 {
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+.content {
+  padding: 5% 10%;
+  text-shadow: 2px 2px 4px #000000;
+  color: mintcream;
+  text-align: center;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.name-headline {
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  text-shadow: 2px 2px 4px #000000; 
+  color:mintcream;
+}
+
+.links {
+  font-family: 'DM Serif Display', serif;
+  text-shadow: 2px 2px 4px #000000; 
+  color:mintcream;
+}
