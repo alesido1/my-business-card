@@ -10,17 +10,18 @@
 /* Poziționarea */
 
 .profile-card {
+  display: flex;
+  justify-content:center;
+  align-content: center;
   height: 500px;
   width:500px;
-  max-width: calc(100vw - 10px);
+  max-width: calc(100vw -10px);
   background-color: hsla(0, 0%, 100%, .5);
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  margin: auto;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height:100vh;
   background: url(assets/pawel-czerwinski-qztBRIrU1FM-unsplash.jpg)no-repeat center center fixed;
   background-size: cover;
@@ -63,15 +64,25 @@ img:hover {
   transform: scale(1.1);
 }
 
-.name-headline {
+.header {
   text-align: center;
   font-family: 'DM Serif Display', serif;
   text-shadow: 2px 2px 4px #000000; 
   color:mintcream;
-}
+  font-size:60px;
+  padding:2%;
+  }
 
 .links {
   font-family: 'DM Serif Display', serif;
   text-shadow: 2px 2px 4px #000000; 
   color:mintcream;
+}
+
+.info {
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  text-shadow: 2px 2px 4px #000000; 
+  color:mintcream;
+  font-size:20px;
 }
